@@ -3,30 +3,38 @@ Usage: this class has all the initial info
 and splash for this program
 
 author: John
-last edit: sept 7 
+last edit: sept 14
 */
 
 public class Splash{
 
-	//testing with main
-	public static void main(String[] args){
-	
-		//call splash screen
-		splashScreen();
+	public Splash(){
+	//zero-argument constructor empty for now
+		
 	}
 	
+	public void splashScreen(){
 	
-	public static void splashScreen(){
-	
-		System.out.println(" ________                   "
-					  + "    \\______\\   ____   ____    "
-					  + "     |    |  \\ /  _ \\ / ___\\   "
-					  + "     |    `   (  <_> ) /_/  >  "
-					  + "    /_______  /\____/\\___  /   "
-					  + "             \\/      /_____/   ");
+		System.out.println(" ________                      \n"
+					  + "    \\______\\   ____   ____      \n"
+					  + "     |    |  \\ /  _ \\ / ___\\   \n"
+					  + "     |    `   (  <_> ) /_/  >     \n"
+					  + "    /_______  /\\____/\\___  /    \n"
+					  + "             \\/      /_____/     \n");
 	  
-	
-	
+		
 	}
+	
+	public void endingSplashScreen(){
+			System.out.println("___________            ___   \n"
+                        +"      \\_   _____/ ____    __| _/  \n"
+                        +"       |    __)_ /    \\   / __ |  \n"
+                        +"       |        \\   |  \\/ /_/ |  \n"
+                        +"      /_______  / ___|  /\\____ |  \n"
+                        +"             \\/     \\/      \\/  \n" );     
+			
+				
+	}			
 
 }
+
