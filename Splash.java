@@ -1,6 +1,6 @@
 /*
 Usage: this class has all the initial info
-and splash fopr this program
+and splash for this program
 
 author: John
 last edit: sept 7 
@@ -19,11 +19,11 @@ public class Splash{
 	public static void splashScreen(){
 	
 		System.out.println(" ________                   "
-					  + "    \______\\   ____   ____    "
-					  + "     |    |  \ /  _ \ / ___\   "
+					  + "    \\______\\   ____   ____    "
+					  + "     |    |  \\ /  _ \\ / ___\\   "
 					  + "     |    `   (  <_> ) /_/  >  "
-					  + "    /_______  /\____/\___  /   "
-					  + "             \/      /_____/   ");
+					  + "    /_______  /\____/\\___  /   "
+					  + "             \\/      /_____/   ");
 	  
 	
 	
