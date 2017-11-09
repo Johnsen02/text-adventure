@@ -1,14 +1,33 @@
 /* this class runs the start of the program
 */
+ import java.util.Scanner;
 
 public class Runner {
 	//tesing with main
-
 public static void main(String[] args){
-
-	Player player = Player();
-		Human human1 =  new human("male", 2, 100);
-		Human human2 =  new human("female", 3, 100);
+	
+	//declare menu objects
+	Menu menu = new Menu(); 
+	
+	//set up user input
+	Scanner input = new Scanner(System.in);
+	int option; //will hold user input for menu option
+	
+	//loop through menu till user enters in 5
+	do{
+		//draw menu
+		menu.drawMenu();
+		
+		//get user input
+		option =  input.nextInt();
+		menu.selection(option);
+		
+	}while(option != 5);
+	
+	
+	Player player = new Player();
+		Human human1 =  new Human("male", 2, 100);
+		Human human2 =  new Human("female", 3, 100);
 //declare array of type parent class
 	Human[] human = new Human[3];
 
@@ -39,7 +58,7 @@ public static void main(String[] args){
 		
 		splash.the_endScreen();
 		}
-		/*
+		*/
 	}
-		
-		
+}
+	
