@@ -29,7 +29,7 @@ Last Edit: Sept 14
 	System.out.println(" Option 1 ");
 	System.out.println(" Option 2");
 	System.out.println(" Exit  ");
-	System.out.println(" Choose an option");
+	System.out.println(" Choose an optionn");
 	}
 	
 	

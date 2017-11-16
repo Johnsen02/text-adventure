@@ -1,4 +1,4 @@
-/* this class runs the start of the program
+/* This class runs the start of the program
 */
  import java.util.Scanner;
 
