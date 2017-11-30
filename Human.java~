@@ -1,8 +1,8 @@
 public class Human{
 
 //attributes
-	private boolean gender;
-	private int name;
+	private String gender;
+	private int id;
 	private int health;
 	private boolean isAlive;
 
@@ -11,9 +11,10 @@ public class Human{
 		this.health = 100;
 		this.isAlive = true;
 }
-	public Human(boolean gender, int name, int health){
+
+	public Human(String gender, int id, int health){
 		this.gender = gender;
-		this.name = name;
+		this.id = id;
 		this.health = health;
 		this.isAlive = true;
 }
@@ -22,7 +23,7 @@ public class Human{
 		return this.name;
 }
 	public void setName(int id){
-		this.name = name;
+		this.name = id;
 }
 //other mutators
 

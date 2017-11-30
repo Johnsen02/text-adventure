@@ -1,6 +1,6 @@
 public class Player extends Human{
 
-//attributess
+//attributes
 	private String status;
 
 //constructors 

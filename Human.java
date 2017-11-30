@@ -20,15 +20,15 @@ public class Human{
 }
 //mutators
 	public int getName(){
-		return this.name;
+		return this.id;
 }
 	public void setName(int id){
-		this.name = id;
+		this.id = id;
 }
 //other mutators
 
 //toString
-public string toString(){
+public String toString(){
 return "Human name: " + this.id + " health: " + this.health + " isAlive: " +this.isAlive
  + " gender: " + this.gender ;
 

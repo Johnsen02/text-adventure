@@ -1,15 +1,38 @@
-/* this class runs the start of the program
+/* This class runs the start of the program
 */
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.Scanner;
+=======
+ import java.util.Scanner;
+
+>>>>>>> 8212a0d6434b56e7a9c5bf57dfd0532aaf0fe643
 public class Runner {
 	//tesing with main
-
 public static void main(String[] args){
-
-	Player player = Player();
-		Human human1 =  new human("male", 2, 100);
-		Human human2 =  new human("female", 3, 100);
+	
+	//declare menu objects
+	Menu menu = new Menu(); 
+	
+	//set up user input
+	Scanner input = new Scanner(System.in);
+	int option; //will hold user input for menu option
+	
+	//loop through menu till user enters in 5
+	do{
+		//draw menu
+		menu.drawMenu();
+		
+		//get user input
+		option =  input.nextInt();
+		menu.selection(option);
+		
+	}while(option != 5);
+	
+	
+	Player player = new Player();
+		Human human1 =  new Human("male", 2, 100);
+		Human human2 =  new Human("female", 3, 100);
 //declare array of type parent class
 	Human[] human = new Human[3];
 
@@ -63,7 +86,7 @@ System.out.println("Here is the amount of people in the game...");
 		
 		splash.the_endScreen();
 		}
-		/*
+		*/
 	}
-		
-		
+}
+	
