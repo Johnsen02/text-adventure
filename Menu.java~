@@ -12,23 +12,22 @@ Last Edit: Sept 14
 	
 		switch(option){
 		case 1:
-			System.out.println(" Option 1");
+			System.out.println(" You wake up and start questioning your existance. You overhear farmers talking about a shaman that knows everything");
 			break;
 			
 		case 2:
-			System.out.println(" Option 2 ");
+		   //exit
 			break;
 		default:
-			System.out.println(" Change Name  ");
+			//default here
 			break;
 		}
 	}
 	//draws the menu
 	public void drawMenu(){
 	System.out.println(" Menu ");
-	System.out.println(" Option 1 ");
-	System.out.println(" Option 2");
-	System.out.println(" Exit  ");
+	System.out.println(" 1 - Play ");
+	System.out.println(" 2 - Exit  ");
 	System.out.println(" Choose an option");
 	}
 	

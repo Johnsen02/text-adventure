@@ -1,12 +1,11 @@
 /* This class runs the start of the program
 */
-<<<<<<< HEAD
+
 import java.util.ArrayList;
 import java.util.Scanner;
-=======
+
  import java.util.Scanner;
 
->>>>>>> 8212a0d6434b56e7a9c5bf57dfd0532aaf0fe643
 public class Runner {
 	//tesing with main
 public static void main(String[] args){
@@ -27,7 +26,7 @@ public static void main(String[] args){
 		option =  input.nextInt();
 		menu.selection(option);
 		
-	}while(option != 5);
+	}while(option != 1);
 	
 	
 	Player player = new Player();
@@ -40,12 +39,12 @@ public static void main(String[] args){
 	human[0] = player;
 	human[1] = human1;
 	human[2] = human2;
-
+/*
 //print out each obj in array
 	System.out.println(human[0]);
 	System.out.println(human[1]);
 	System.out.println(human[2]);
-
+*/
 //declare to start getting user input
 	Scanner scanner = new Scanner(System.in);
 
@@ -55,12 +54,14 @@ public static void main(String[] args){
 	
 	String  name = scanner.next();
 	
-	System.out.println("Hi " + name + "!");
+	System.out.println("Hi " + name + " what the hell are you doing in here? You know what i dont want to get involved...");
 	
-	System.out.println("How old are you");
+	System.out.println("How old are you ?");
 	
-	int numberOfAge = scanner.nextInt():
+	int numberOfAge = scanner.nextInt();
 	
+
+/*	
 	//declare a arraylist
 ArrayList<Human> list = new ArrayList<>();
 
@@ -71,7 +72,7 @@ for(int i = 0; i < numberOfHuman; i++){
 	list.get(i).setId(i);
 }
 System.out.println("Here is the amount of people in the game...");
-
+*/
 
 	/*
 	Person Bob = new Person();

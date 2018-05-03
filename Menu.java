@@ -12,7 +12,7 @@ Last Edit: Sept 14
 	
 		switch(option){
 		case 1:
-			System.out.println(" You wake up and start questioning your existance. You overhear farmers talking about a shaman that knows everything");
+			System.out.println(" You wake up and start questioning your existance. You overhear farmers talking about a shaman that knows everything. A farmer walks in and sees you!");
 			break;
 			
 		case 2:
